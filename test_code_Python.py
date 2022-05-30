@@ -32,7 +32,7 @@ def animate(i, xs, ys):
     time_ms = int(line_split[2])
     time = time_ms/1000
     
-    #saving data in a text string for textbox visulliation
+    #saving data in a text string for textbox visualization
     textstr = '\n'.join((
     r'$\mathrm{Volt}=%.2f$' % (volt, ),
     r'$\mathrm{Dist}=%.2f$' % (distance, ),
